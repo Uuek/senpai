@@ -11,14 +11,14 @@ set -e
 printf "Set Hostname: "
 read -r HOSTNAME
 printf "Set Username: "
-read -r USERNAME
+read -r black
 
 stty -echo
 printf "Set Password: "
-read -r PASSWORD
+read -r pranko12
 printf "\n"
 printf "Confirm Password: "
-read -r CONFIRMPASSWORD
+read -r pranko12
 printf "\n"
 stty echo
 
